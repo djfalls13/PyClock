@@ -23,7 +23,7 @@ import time
 def clearscreen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
-# Had trouble getting ASCII art to display side by side
+# Had trouble getting ASCII art to display side by side as Multi-Line Variables
 # Made each line of ASCII number part of a List
 
 zero = [
@@ -93,7 +93,7 @@ eight = [
 '  ___    ',
 ' / _ \\   ',
 '| (_) |  ',
-' > _ <'  ,
+' > _ <   '  ,
 '| (_) |  ',
 ' \___/   ']
 
@@ -126,9 +126,6 @@ space = [
 # can be used to call ASCII Art number from List of Lists
 
 clockNumbers = [zero,one,two,three,four,five,six,seven,eight,nine]
-
-
-time.sleep(1)
 
 while True:
     time.sleep(1)
