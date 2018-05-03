@@ -21,7 +21,7 @@ import time
 
 #function to clear the screen in Linux or Windows
 def clearscreen():
-    os.system('cls' if os.name == 'nt' else 'clear')
+    os.system('cls' if os.name == 'nt' else 'clear; date; cal')
 
 # Had trouble getting ASCII art to display side by side as Multi-Line Variables
 # Made each line of ASCII number part of a List
